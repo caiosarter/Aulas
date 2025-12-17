@@ -1,16 +1,25 @@
-.esquerda{
-    text-align: left;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 40px;
+    color: #333;
 }
 
-.centro{
+h1, h2 {
     text-align: center;
 }
 
-.direita{
-    text-align: right;
+p {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
 }
 
-.cor-solida{
-    background-color: indigo;
-    color: white;
+.grafico {
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
